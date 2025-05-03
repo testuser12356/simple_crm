@@ -27,11 +27,15 @@ git remote add origin https://github.com/testuser12356/simple_crm.git
 ```
 
 ```commandline
+git pull origin main
+```
+
+```commandline
 py -m venv venv
 ```
 
 ```commandline
-venv/Script/activate
+venv/Scripts/activate
 ```
 
 ```Plain text
