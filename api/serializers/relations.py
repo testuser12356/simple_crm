@@ -6,4 +6,4 @@ import core.models as models
 class CustomUserRelationSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.CustomUser
-        fields = ("id", "username")
+        fields = ("id", "username", "is_manager")
